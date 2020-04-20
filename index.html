@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+  
+  <title>Endsoon&#39;s Blog</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="还行吧...">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  
+  
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/png" />
+  <meta name="description" content="还行吧...">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Endsoon&#39;s Blog">
+<meta property="og:url" content="https://endsoon.life/index.html">
+<meta property="og:site_name" content="Endsoon&#39;s Blog">
+<meta property="og:description" content="还行吧...">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Endsoon">
+<meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/nexmoe/nexmoe.github.io@latest/css/style.css,npm/highlight.js@9.15.8/styles/atom-one-dark.css,gh/nexmoe/nexmoe.github.io@latest/lib/mdui_043tiny/css/mdui.css,gh/nexmoe/nexmoe.github.io@latest/lib/iconfont/iconfont.css" crossorigin>
+  
+  <!--<link rel="stylesheet" href="/css/style.css?v=1587367333940">-->
+
+  
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body class="mdui-drawer-body-left">
+  
+  <div id="nexmoe-background">
+    <div class="nexmoe-bg" style="background-image: url(https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/5c3aec85a4343.jpg)"></div>
+    <div class="mdui-appbar mdui-shadow-0">
+      <div class="mdui-toolbar">
+        <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
+        <div class="mdui-toolbar-spacer"></div>
+        <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+        <a href="/" title="Endsoon" class="mdui-btn mdui-btn-icon"><img src="https://pbs.twimg.com/profile_images/1049860540225347584/OGvk3Tkj_400x400.jpg" alt="Endsoon"></a>
+       </div>
+    </div>
+  </div>
+  <div id="nexmoe-header">
+      <div class="nexmoe-drawer mdui-drawer" id="drawer">
+    <div class="nexmoe-avatar mdui-ripple">
+        <a href="/" title="Endsoon">
+            <img src="https://pbs.twimg.com/profile_images/1049860540225347584/OGvk3Tkj_400x400.jpg" alt="Endsoon" alt="Endsoon">
+        </a>
+    </div>
+    <div class="nexmoe-count">
+        <div><span>文章</span>7</div>
+        <div><span>标签</span>2</div>
+        <div><span>分类</span>0</div>
+    </div>
+    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/" title="回到首页">
+            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
+            <div class="mdui-list-item-content">
+                回到首页
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/about.html" title="关于博客">
+            <i class="mdui-list-item-icon nexmoefont icon-info-circle"></i>
+            <div class="mdui-list-item-content">
+                关于博客
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/PY.html" title="我的朋友">
+            <i class="mdui-list-item-icon nexmoefont icon-unorderedlist"></i>
+            <div class="mdui-list-item-content">
+                我的朋友
+            </div>
+        </a>
+        
+    </div>
+    <aside id="nexmoe-sidebar">
+  
+  <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-search">
+        <form id="search_form" action_e="https://cn.bing.com/search?q=site:nexmoe.com" onsubmit="return search();">
+            <label><input id="search_value" name="q" type="search" placeholder="搜索"></label>
+        </form>
+    </div>
+</div>
+  
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">社交按钮</h3>
+    <div class="nexmoe-widget nexmoe-social">
+        <a class="mdui-ripple" href="https://space.bilibili.com/20238211" target="_blank" mdui-tooltip="{content: '哔哩哔哩'}" style="color: rgb(231, 106, 141);background-color: rgba(231, 106, 141, .15);">
+            <i class="nexmoefont icon-bilibili"></i>
+        </a><a class="mdui-ripple" href="https://github.com/nexmoe/" target="_blank" mdui-tooltip="{content: 'GitHub'}" style="color: rgb(25, 23, 23);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-github"></i>
+        </a>
+    </div>
+</div>
+  
+  
+
+  
+  
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">标签云</h3>
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/tags/galgame/" style="font-size: 10px;">galgame</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 10px;">生活</a>
+    </div>
+    
+  </div>
+
+  
+  
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">文章归档</h3>
+    <div class="nexmoe-widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">四月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">九月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/">七月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/02/">二月 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+</aside>
+    <div class="nexmoe-copyright">
+        &copy; 2020 Endsoon
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        & <a href="https://nexmoe.com/hexo-theme-nexmoe.html" target="_blank">Nexmoe</a>
+    </div>
+</div><!-- .nexmoe-drawer -->
+  </div>
+  <div id="nexmoe-content">
+    <div class="nexmoe-primary">
+        <section class="nexmoe-posts">
+    
+    <div class="nexmoe-post">
+        <a href="/2020/04/20/article-6/">
+            
+                <div class="nexmoe-post-cover mdui-ripple" style="padding-bottom: 66.66666666666666%;"> 
+                    <img data-src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/5c3aec85a4343.jpg" data-sizes="auto" alt="COC跑团随想" class="lazyload">
+                    <h1>COC跑团随想</h1>
+                </div>
+            
+        </a>
+
+        <div class="nexmoe-post-meta nexmoe-rainbow">
+            <a><i class="nexmoefont icon-calendar-fill"></i>2020年04月20日</a>
+            <a><i class="nexmoefont icon-areachart"></i>1.3k 字</a>
+            <a><i class="nexmoefont icon-time-circle-fill"></i>大概 5 分钟</a>
+        </div>
+
+        <article>
+            
+                <p>小孩子总是无忧无虑，富有幻想的。</p>
+            
+        </article>
+    </div>
+    
+    <div class="nexmoe-post">
+        <a href="/2019/09/13/article-5/">
+            
+                <div class="nexmoe-post-cover mdui-ripple" style="padding-bottom: 66.66666666666666%;"> 
+                    <img data-src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/5c3aec85a4343.jpg" data-sizes="auto" alt="summer pockets通关感想" class="lazyload">
+                    <h1>summer pockets通关感想</h1>
+                </div>
+            
+        </a>
+
+        <div class="nexmoe-post-meta nexmoe-rainbow">
+            <a><i class="nexmoefont icon-calendar-fill"></i>2019年09月13日</a>
+            <a><i class="nexmoefont icon-areachart"></i>2.3k 字</a>
+            <a><i class="nexmoefont icon-time-circle-fill"></i>大概 9 分钟</a>
+        </div>
+
+        <article>
+            
+                <p>序言<br>最初也不记得是在哪里看到的消息了，说是key社新作大魔王麻枝准倾力奉献。我入坑ACG也不算太早，key社也是低产的游戏开发商，这算是我第一次看到或者说是经历key社出新作这件事，怎能叫人不想玩呢？特别是封面上漂亮可爱的四个女主角，一眼就吸引了我，于是我心里就埋下了定要玩这一作的种子。但是很显然刚出的游戏有没有资源不说，汉化是肯定没有这么快的，结果等着等着……我就给忘了……</p>
+            
+        </article>
+    </div>
+    
+    <div class="nexmoe-post">
+        <a href="/2019/07/14/article-4/">
+            
+                <div class="nexmoe-post-cover mdui-ripple" style="padding-bottom: 66.66666666666666%;"> 
+                    <img data-src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/5c3aec85a4343.jpg" data-sizes="auto" alt="我发动魔法卡！死者苏生！" class="lazyload">
+                    <h1>我发动魔法卡！死者苏生！</h1>
+                </div>
+            
+        </a>
+
+        <div class="nexmoe-post-meta nexmoe-rainbow">
+            <a><i class="nexmoefont icon-calendar-fill"></i>2019年07月14日</a>
+            <a><i class="nexmoefont icon-areachart"></i>520 字</a>
+            <a><i class="nexmoefont icon-time-circle-fill"></i>大概 2 分钟</a>
+        </div>
+
+        <article>
+            
+                <p>暑假虽然只开始了两星期，我体感却好像过去了半年</p>
+            
+        </article>
+    </div>
+    
+    <div class="nexmoe-post">
+        <a href="/2019/02/22/article-3/">
+            
+                <div class="nexmoe-post-cover mdui-ripple" style="padding-bottom: 66.66666666666666%;"> 
+                    <img data-src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/5c3aec85a4343.jpg" data-sizes="auto" alt="我可能是中了俄罗斯方块的毒" class="lazyload">
+                    <h1>我可能是中了俄罗斯方块的毒</h1>
+                </div>
+            
+        </a>
+
+        <div class="nexmoe-post-meta nexmoe-rainbow">
+            <a><i class="nexmoefont icon-calendar-fill"></i>2019年02月22日</a>
+            <a><i class="nexmoefont icon-areachart"></i>57 字</a>
+            <a><i class="nexmoefont icon-time-circle-fill"></i>大概 1 分钟</a>
+        </div>
+
+        <article>
+            
+                <p>最近两天满脑子都是俄罗斯方块</p>
+            
+        </article>
+    </div>
+    
+    <div class="nexmoe-post">
+        <a href="/2019/02/20/article-2/">
+            
+                <div class="nexmoe-post-cover mdui-ripple" style="padding-bottom: 66.66666666666666%;"> 
+                    <img data-src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/5c3aec85a4343.jpg" data-sizes="auto" alt="高中以来的第一回龙灯" class="lazyload">
+                    <h1>高中以来的第一回龙灯</h1>
+                </div>
+            
+        </a>
+
+        <div class="nexmoe-post-meta nexmoe-rainbow">
+            <a><i class="nexmoefont icon-calendar-fill"></i>2019年02月20日</a>
+            <a><i class="nexmoefont icon-areachart"></i>326 字</a>
+            <a><i class="nexmoefont icon-time-circle-fill"></i>大概 1 分钟</a>
+        </div>
+
+        <article>
+            
+                <p>昨天去了看龙灯，毕竟自高三以来就没有再过过元宵节了。大学的第一个元宵，当然是要久违地出门去看看啦。</p>
+            
+        </article>
+    </div>
+    
+    <div class="nexmoe-post">
+        <a href="/2019/02/18/article-1/">
+            
+                <div class="nexmoe-post-cover mdui-ripple" style="padding-bottom: 66.66666666666666%;"> 
+                    <img data-src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/5c3aec85a4343.jpg" data-sizes="auto" alt="心跳文学部" class="lazyload">
+                    <h1>心跳文学部</h1>
+                </div>
+            
+        </a>
+
+        <div class="nexmoe-post-meta nexmoe-rainbow">
+            <a><i class="nexmoefont icon-calendar-fill"></i>2019年02月18日</a>
+            <a><i class="nexmoefont icon-areachart"></i>2k 字</a>
+            <a><i class="nexmoefont icon-time-circle-fill"></i>大概 8 分钟</a>
+        </div>
+
+        <article>
+            
+                <p>第一次玩非日本的外国galgame，在玩之前我就早已经听说过心跳文学部的大名。世界上没事喜欢找吓来点刺激的人很多，当然我不是这种人，我从来不没事找吓。所以尽管我听说过很多恐怖猎奇类galgame，但我一作都没有碰。上一次主动接触这种还是半途而废的沙耶之歌，毕竟我真的不喜换那种画风。那么我为什么会玩这个游戏呢，因为妹子很可爱，嗯。</p>
+            
+        </article>
+    </div>
+    
+    <div class="nexmoe-post">
+        <a href="/2019/02/18/article/">
+            
+                <div class="nexmoe-post-cover mdui-ripple" style="padding-bottom: 66.66666666666666%;"> 
+                    <img data-src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/5c3aec85a4343.jpg" data-sizes="auto" alt="这是一条测试博客" class="lazyload">
+                    <h1>这是一条测试博客</h1>
+                </div>
+            
+        </a>
+
+        <div class="nexmoe-post-meta nexmoe-rainbow">
+            <a><i class="nexmoefont icon-calendar-fill"></i>2019年02月18日</a>
+            <a><i class="nexmoefont icon-areachart"></i>6 字</a>
+            <a><i class="nexmoefont icon-time-circle-fill"></i>大概 1 分钟</a>
+        </div>
+
+        <article>
+            
+                <p>从这里开折腾</p>
+            
+        </article>
+    </div>
+    
+</section>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/combine/npm/lazysizes@5.1.0/lazysizes.min.js,gh/highlightjs/cdn-release@9.15.8/build/highlight.min.js,npm/mdui@0.4.3/dist/js/mdui.min.js,gh/nexmoe/nexmoe.github.io@latest/js/app.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!--<script src="/js/app.js?v=1587367333942"></script>-->
+
+
+    <script src="https://cdn.jsdelivr.net/gh/xtaodada/xtaodada.github.io@0.0.2/copy.js"></script>
+
+
+
+  
+
+
+
+
+
+</body>
+
+</html>
